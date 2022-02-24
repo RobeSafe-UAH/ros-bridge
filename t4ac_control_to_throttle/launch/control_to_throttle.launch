@@ -1,0 +1,5 @@
+<!-- -->
+<launch>
+  <node pkg="t4ac_control_to_throttle" type="t4ac_control_to_throttle_node.py" name="control_to_throttle_node">
+  </node>
+</launch>
