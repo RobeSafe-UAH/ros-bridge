@@ -42,4 +42,6 @@
     <arg name='role_name' value='$(arg role_name)'/>
   </include>
 
+  <include file="$(find t4ac_control_to_throttle)/launch/control_to_throttle.launch"/>
+  
 </launch>

@@ -44,8 +44,7 @@ class TrafficParticipant(Actor):
                                                  node=node,
                                                  prefix=prefix)
 
-        self.odometry_publisher = rospy.Publisher(self.get_topic_prefix() +
-                                                  "/odometry",
+        self.odometry_publisher = rospy.Publisher("/t4ac/localization/pose",
                                                   Odometry,
                                                   queue_size=10)
 
